@@ -15,9 +15,9 @@ FPS=60
 
 font.init()
 font=font.SysFont('arial',70)
-win=font.render("YOU WIN!", True, (215, 119, 247))
+win=font.render("Ти виграв!", True, (215, 119, 247))
 
-lose=font.render("YOU LOSER!", True, (215, 119, 247))
+lose=font.render("Ти програв!", True, (215, 119, 247))
 wait = 60
 
 clock=time.Clock()
